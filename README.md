@@ -51,5 +51,9 @@ View pod logs: https://docs.stackos.io/stackos-docs/operations/webtty-logs-shell
 Reference other pods like mysql or redis:
 
 You can internally address other pods in the same  StackOS account by the standard hostname scheme:
-<podname>-0xYourEthAddress
+PODNAME-0xYourEthAddress
+
+Where you can replace PODNAME with the actual name of your pod such as redis or mysql resulting in hostname such as:
+redis-0xYourEthAddress
+mysql-0xYourEthAddress
 
